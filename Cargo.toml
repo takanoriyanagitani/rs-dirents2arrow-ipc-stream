@@ -3,6 +3,13 @@ name = "rs-dirents2arrow-ipc-stream"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the dirents to an ipc stream."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-dirents2arrow-ipc-stream"
+homepage = "https://github.com/takanoriyanagitani/rs-dirents2arrow-ipc-stream"
+documentation = "https://docs.rs/rs-dirents2arrow-ipc-stream/latest"
+keywords = ["dirent", "arrow", "ipc", "stream"]
+
 [lints.rust]
 unsafe_code = "forbid"
 
