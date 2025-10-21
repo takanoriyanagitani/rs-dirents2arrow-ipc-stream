@@ -1,0 +1,32 @@
+[package]
+name = "rs-dirents2arrow-ipc-stream"
+version = "0.1.0"
+edition = "2024"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+
+[[bin]]
+name = "dirents2arrow-ipc-stream"
+
+[dependencies.arrow-ipc]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.arrow-array]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.arrow-schema]
+version = "56"
+default-features = false
+features = [
+]
